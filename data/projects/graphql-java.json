@@ -21,8 +21,8 @@
       "since": "?"
     },
     "executable-documents-descriptions": {
-      "since": "-",
-      "note": "[issue](https://github.com/graphql-java/graphql-java/issues/4077)"
+      "since": "master",
+      "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4392)"
     },
     "fragment-arguments": {
       "since": "?"
