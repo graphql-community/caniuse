@@ -2,5 +2,5 @@
   "name": "Directives on directives",
   "description": "Allow to add directives on directive definitions. This is useful, for an example to deprecate existing directives.",
   "url": "https://github.com/graphql/graphql-spec/pull/1206",
-  "tags": ["Experimental", "RFC2"]
+  "tags": ["draft"]
 }
