@@ -99,6 +99,10 @@
     "subscriptions": {
       "since": "",
       "note": ""
+    },
+    "covariant-fields-merging": {
+      "since": "-",
+      "note": ""
     }
   }
 }
