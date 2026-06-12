@@ -1,0 +1,6 @@
+{
+  "name": "Covariant fields merging",
+  "description": "Relaxes field merging validation to allow covariant types to merge.",
+  "url": "https://github.com/graphql/graphql-spec/pull/804",
+  "tags": ["Experimental"]
+}
