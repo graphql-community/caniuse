@@ -1,6 +1,6 @@
 {
   "name": "'application/graphql-response+json' media type",
-  "description": "The `application/graphql-response+json` media type allows client to distinguish between well formed GraphQL responses and responses that may originate from an intermediary server, such as a cache or proxy. This makes it possible to use better status code than 200",
+  "description": "The `application/graphql-response+json` media type allows clients to distinguish between well formed GraphQL responses and responses that may originate from an intermediary server, such as a cache or proxy. This makes it possible to use better status codes than 200",
   "url": "https://graphql.github.io/graphql-over-http/draft/",
   "tags": ["draft"]
 }
