@@ -18,7 +18,7 @@
       "since": "-"
     },
     "directives-on-directives": {
-      "since": "-"
+      "since": "16.6.0"
     },
     "executable-documents-descriptions": {
       "since": "16.0.0",
