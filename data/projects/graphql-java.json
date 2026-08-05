@@ -18,7 +18,8 @@
       "since": "?"
     },
     "directives-on-directives": {
-      "since": "?"
+      "since": "26.1",
+      "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4432)"
     },
     "executable-documents-descriptions": {
       "since": "master",
