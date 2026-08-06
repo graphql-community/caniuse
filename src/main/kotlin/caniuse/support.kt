@@ -22,19 +22,31 @@ internal fun tagRank(tags: List<String>): Int {
   return tags.mapNotNull { featureTagOrder.indexOf(it).takeIf { idx -> idx >= 0 } }.minOrNull() ?: Int.MAX_VALUE
 }
 
-internal fun featureEntries(id: String, project: Project, features: Map<String, Feature>): List<SupportEntry> {
+internal fun featureEntries(projectId: String, project: Project, features: Map<String, Feature>): List<SupportEntry> {
   return features.map { feature ->
-    project.features.get(feature.key).toSupportEntry(id, feature.value.name, "../feature/${feature.key}.html", feature.value.tags)
+    project.features.get(feature.key).toSupportEntry(
+      projectId,
+      feature.value.name,
+      "../feature/${feature.key}.html",
+      "https://github.com/$repo/edit/main/data/projects/$projectId.json",
+      feature.value.tags
+    )
   }.sortedWith(compareBy<SupportEntry> { tagRank(it.tags) }.thenBy { it.name })
 }
 
-internal fun projectEntries(id: String, projects: Map<String, Project>): List<SupportEntry> {
+internal fun projectEntries(featureId: String, projects: Map<String, Project>): List<SupportEntry> {
   return projects.map { project ->
-    project.value.features.get(id).toSupportEntry(id, project.value.name, "../project/${project.key}.html", emptyList())
+    project.value.features.get(featureId).toSupportEntry(
+      featureId,
+      project.value.name,
+      "../project/${project.key}.html",
+      "https://github.com/$repo/edit/main/data/projects/${project.key}.json",
+      emptyList()
+    )
   }.sortedBy { it.name }
 }
 
-internal fun SupportStatus?.score(): Double = when(this) {
+internal fun SupportStatus?.score(): Double = when (this) {
   is Partial -> 0.5
   is Supported -> 1.0
   else -> 0.0
@@ -54,16 +66,22 @@ internal fun SupportInfo?.toSupportStatus(): SupportStatus {
   }
 }
 
-private fun SupportInfo?.toSupportEntry(id: String, name: String, link: String, tags: List<String>): SupportEntry {
+private fun SupportInfo?.toSupportEntry(
+  id: String,
+  name: String,
+  link: String,
+  editLink: String,
+  tags: List<String>
+): SupportEntry {
   val status = toSupportStatus()
 
   val note = if (status is Unknown) {
-    "Know the status of this feature? [Let us know!](https://github.com/$repo/edit/main/data/projects/$id.json)"
+    "Know the status of this feature? [Let us know!]($editLink)"
   } else {
     this?.note.orEmpty()
   }
 
-  val label = when(status) {
+  val label = when (status) {
     NotApplicable -> "N/A"
     NotSupported -> "-"
     is Partial -> status.version
