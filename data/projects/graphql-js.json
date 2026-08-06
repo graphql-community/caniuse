@@ -20,7 +20,7 @@
       "note": "[pr](https://github.com/graphql/graphql-js/pull/3818)"
     },
     "directives-on-directives": {
-      "since": "-",
+      "since": "16.14.0",
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4521)"
     },
     "executable-documents-descriptions": {
