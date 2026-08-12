@@ -27,6 +27,9 @@
     "graphql-response+json": {
       "since": "1.16.1"
     },
+    "graphql-over-http": {
+      "since": "1.16.1"
+    },
     "on-error": {
       "since": "-"
     },

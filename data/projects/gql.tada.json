@@ -24,6 +24,10 @@
       "since": "n/a",
       "note": "gql.tada is transport agnostic."
     },
+    "graphql-over-http": {
+      "since": "n/a",
+      "note": "gql.tada is transport agnostic."
+    },
     "on-error": {
       "since": "-"
     },

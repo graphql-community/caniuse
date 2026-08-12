@@ -24,6 +24,10 @@
       "since": "4.0.0",
       "note": "[pr](https://github.com/apollographql/apollo-client/pull/12254)"
     },
+    "graphql-over-http": {
+      "since": "4.0.0",
+      "note": "[pr](https://github.com/apollographql/apollo-client/pull/12254)"
+    },
     "on-error": {
       "since": "-"
     },

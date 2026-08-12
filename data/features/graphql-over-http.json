@@ -1,0 +1,6 @@
+{
+  "name": "GraphQL over HTTP",
+  "description": "Compliance with the [GraphQL over HTTP](https://graphql.github.io/graphql-over-http/draft/) specification, which defines how GraphQL requests and responses should be serialized and transported over HTTP.",
+  "url": "https://graphql.github.io/graphql-over-http/draft/",
+  "tags": ["draft"]
+}

@@ -28,6 +28,10 @@
       "since": "3.2.0",
       "note": "[pr](https://github.com/urql-graphql/urql/pull/3007)"
     },
+    "graphql-over-http": {
+      "since": "3.2.0",
+      "note": "[pr](https://github.com/urql-graphql/urql/pull/3007)"
+    },
     "on-error": {
       "since": "-",
       "note": "The built-in fetch request body does not include the GraphQL `onError` request parameter."

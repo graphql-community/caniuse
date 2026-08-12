@@ -28,6 +28,10 @@
       "since": "n/a",
       "note": "Grats is transport agnostic."
     },
+    "graphql-over-http": {
+      "since": "n/a",
+      "note": "Grats is transport agnostic."
+    },
     "on-error": {
       "since": "-",
       "note": "Will be provided by [GraphQL.js](graphql-js) [pr](https://github.com/graphql/graphql-js/pull/4364)"

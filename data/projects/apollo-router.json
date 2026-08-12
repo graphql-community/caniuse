@@ -23,6 +23,10 @@
       "since": "-",
       "note": "[pr](https://github.com/apollographql/router/pull/9977)"
     },
+    "graphql-over-http": {
+      "since": "-",
+      "note": "[pr](https://github.com/apollographql/router/pull/9977)"
+    },
     "on-error": {
       "since": "-"
     },

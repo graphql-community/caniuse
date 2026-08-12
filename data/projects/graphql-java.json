@@ -8,6 +8,10 @@
       "since": "n/a",
       "note": "GraphQL Java is transport agnostic."
     },
+    "graphql-over-http": {
+      "since": "n/a",
+      "note": "GraphQL Java is transport agnostic."
+    },
     "one-of": {
       "since": "21.2"
     },

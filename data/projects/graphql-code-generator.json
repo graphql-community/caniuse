@@ -23,6 +23,10 @@
       "since": "n/a",
       "note": "GraphQL code generator does not deal with transport concerns."
     },
+    "graphql-over-http": {
+      "since": "n/a",
+      "note": "GraphQL code generator does not deal with transport concerns."
+    },
     "on-error": {
       "since": "?"
     },

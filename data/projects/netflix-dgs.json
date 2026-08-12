@@ -26,6 +26,10 @@
       "since": "n/a",
       "note": "Provided by Spring for GraphQL ([Discussion](https://github.com/Netflix/dgs-framework/discussions/1728))"
     },
+    "graphql-over-http": {
+      "since": "n/a",
+      "note": "Provided by Spring for GraphQL ([Discussion](https://github.com/Netflix/dgs-framework/discussions/1728))"
+    },
     "on-error": {
       "since": "-",
       "note": "Requires GraphQL Java support"

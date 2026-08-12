@@ -25,6 +25,10 @@
       "since": "n/a",
       "note": "Relay is transport agnostic ([doc](https://relay.dev/docs/guides/network-layer/))."
     },
+    "graphql-over-http": {
+      "since": "n/a",
+      "note": "Relay is transport agnostic ([doc](https://relay.dev/docs/guides/network-layer/))."
+    },
     "on-error": {
       "since": "-"
     },

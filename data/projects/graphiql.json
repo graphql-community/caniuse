@@ -23,6 +23,10 @@
       "since": "5.2.3",
       "note": "[pr](github.com/graphql/graphiql/pull/4199)"
     },
+    "graphql-over-http": {
+      "since": "5.2.3",
+      "note": "[pr](github.com/graphql/graphiql/pull/4199)"
+    },
     "on-error": {
       "since": "?"
     },

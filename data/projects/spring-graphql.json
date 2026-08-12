@@ -23,6 +23,10 @@
       "since": "1.4.0",
       "note": "[doc](https://docs.spring.io/spring-graphql/reference/transports.html), [commit](https://github.com/spring-projects/spring-graphql/commit/c5fef9b4ab4bcd3d79a5617534298fe249b95211)"
     },
+    "graphql-over-http": {
+      "since": "1.4.0",
+      "note": "[doc](https://docs.spring.io/spring-graphql/reference/transports.html), [commit](https://github.com/spring-projects/spring-graphql/commit/c5fef9b4ab4bcd3d79a5617534298fe249b95211)"
+    },
     "on-error": {
       "since": "?"
     },

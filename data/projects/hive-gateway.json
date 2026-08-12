@@ -7,6 +7,9 @@
     "graphql-response+json": {
       "since": "1.0.0"
     },
+    "graphql-over-http": {
+      "since": "1.0.0"
+    },
     "capabilities": {
       "since": "-"
     },

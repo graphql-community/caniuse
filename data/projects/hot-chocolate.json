@@ -8,6 +8,10 @@
       "since": "13.0.0",
       "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
     },
+    "graphql-over-http": {
+      "since": "13.0.0",
+      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
+    },
     "one-of": {
       "since": "13.0.0"
     },

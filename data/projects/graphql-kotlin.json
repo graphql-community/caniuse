@@ -8,6 +8,10 @@
       "since": "7.0.0",
       "note": "[pr](https://github.com/ExpediaGroup/graphql-kotlin/pull/1699)"
     },
+    "graphql-over-http": {
+      "since": "7.0.0",
+      "note": "[pr](https://github.com/ExpediaGroup/graphql-kotlin/pull/1699)"
+    },
     "capabilities": {
       "since": "?"
     },
