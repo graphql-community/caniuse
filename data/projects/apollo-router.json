@@ -21,14 +21,14 @@
     },
     "graphql-response+json": {
       "since": "-",
-      "note": "[issue](https://github.com/apollographql/router/issues/6851)"
+      "note": "[pr](https://github.com/apollographql/router/pull/9977)"
     },
     "on-error": {
       "since": "-"
     },
     "one-of": {
       "since": "-",
-      "note": "Requires support in apollo-rs ([pr](https://github.com/apollographql/apollo-rs/pull/1030))"
+      "note": "[apollo-rs pr](https://github.com/apollographql/apollo-rs/pull/1030) is merged. Needs to be included in the router."
     },
     "semantic-introspection": {
       "since": "-"
