@@ -1,0 +1,6 @@
+{
+  "name": "Empty selection sets",
+  "description": "Make it possible to have empty selection sets:\n\n```graphql\nquery GetUser {\n  # this is valid\n  user {} \n}\n```",
+  "url": "https://github.com/graphql/graphql-spec/pull/1227",
+  "tags": ["Experimental"]
+}
