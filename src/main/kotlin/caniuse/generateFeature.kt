@@ -9,7 +9,7 @@ fun generateFeature(id: String, feature: Feature, features: Map<String, Feature>
       +feature.name
       feature.tags.forEach { tag -> featureTagBadge(tag) }
     }
-    p { markdown(feature.description) }
+    div("markdown") { markdown(feature.description) }
     if (feature.url != null) {
       p {
         b { +"More info: " }
