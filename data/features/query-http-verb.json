@@ -1,0 +1,5 @@
+{
+  "name": "HTTP QUERY method",
+  "description": "Support for sending GraphQL `query` operations using the [HTTP QUERY method](https://www.rfc-editor.org/rfc/rfc10008.html). Unlike POST, QUERY is safe and idempotent, and unlike GET, it carries the operation in the request content instead of the URL, avoiding length limits and improving cacheability. Because it must remain safe and idempotent, QUERY is only suitable for `query` operations, not mutations.",
+  "url": "https://www.rfc-editor.org/rfc/rfc10008.html"
+}

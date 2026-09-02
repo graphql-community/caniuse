@@ -108,6 +108,10 @@
     "empty-selection-sets": {
       "since": "main",
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7015)"
+    },
+    "query-http-verb": {
+      "since": "",
+      "note": ""
     }
   }
 }
