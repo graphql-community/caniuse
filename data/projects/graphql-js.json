@@ -101,6 +101,10 @@
     "covariant-fields-merging": {
       "since": "-",
       "note": ""
+    },
+    "empty-selection-sets": {
+      "since": "-",
+      "note": "[pr](https://github.com/graphql/graphql-js/pull/4852)"
     }
   }
 }
