@@ -2,5 +2,5 @@
   "name": "Empty selection sets",
   "description": "Make it possible to have empty selection sets:\n\n```graphql\nquery GetUser {\n  # this is valid\n  user {} \n}\n```\n\nThis is especially useful with client side directive such as `@client` or `@mock`:\n\n```graphql\nquery LaunchDetails($launchId: ID!) {\n    launch(id: $launchId) {\n      # if everything is pruned, the server is going to see an empty selection set\n      isInCart @mock\n      site @client\n    }\n  }\n}\n```",
   "url": "https://github.com/graphql/graphql-spec/pull/1227",
-  "tags": ["Experimental"]
+  "tags": ["Experimental", "RFC2"]
 }
