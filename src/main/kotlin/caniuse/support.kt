@@ -16,7 +16,7 @@ object NotApplicable : SupportStatus
 object Unknown : SupportStatus
 object NotSupported : SupportStatus
 
-private val featureTagOrder = listOf("Jul 2015", "Jun 2018", "Oct 2021", "Sep 2025", "draft", "RFC2", "RFC1", "RFC0")
+private val featureTagOrder = listOf("Jul 2015", "Jun 2018", "Oct 2021", "Sep 2025", "draft", "RFC2", "RFC1", "RFC0", "GAP")
 
 internal fun tagRank(tags: List<String>): Int {
   return tags.mapNotNull { featureTagOrder.indexOf(it).takeIf { idx -> idx >= 0 } }.minOrNull() ?: Int.MAX_VALUE

@@ -1,6 +1,6 @@
 {
   "name": "Field extensions",
   "description": "Field extensions allow you to add custom metadata to fields in your GraphQL schema, which can be used by tools and libraries to provide additional functionality or insights.",
-  "url": "https://github.com/graphql/graphql-spec/issues/1162",
-  "tags": ["Experimental", "RFC0"]
+  "url": "https://gaps.graphql.org/GAP-4/",
+  "tags": ["Experimental", "GAP"]
 }

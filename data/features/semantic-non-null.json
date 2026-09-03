@@ -1,6 +1,6 @@
 {
   "name": "@semanticNonNull",
   "description": "@semanticNonNull allows marking fields that are never null unless there is a matching error in the `errors` array. This allows some tools to generate those types as non-null and make the client code simpler",
-  "url": "https://specs.apollo.dev/nullability/v0.4/#@semanticNonNull",
-  "tags": ["Experimental"]
+  "url": "https://gaps.graphql.org/GAP-49/",
+  "tags": ["Experimental", "GAP"]
 }

@@ -24,6 +24,7 @@ private fun tagStyle(tag: String): Tag {
     "RFC2" -> Tag("#CDF27E", "#000", "This feature is RFC2: draft. It is not merged in the spec draft yet but is a well formed solution")
     "RFC1" -> Tag("#DBF6A2", "#000", "This feature is RFC1: proposal")
     "RFC0" -> Tag("#EDFAD1", "#000", "This feature is RFC0: strawman")
+    "GAP" -> Tag("#FFCCEF", "#000", "This feature is a GAP: GraphQL Auxiliary Proposal")
     else -> error("Unknown tag: $tag")
   }
 }
