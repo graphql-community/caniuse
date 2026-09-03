@@ -33,7 +33,8 @@
       "since": "?"
     },
     "on-error": {
-      "since": "?"
+      "since": "",
+      "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4378)"
     },
     "semantic-introspection": {
       "since": "?"
