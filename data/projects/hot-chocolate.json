@@ -10,7 +10,7 @@
     },
     "graphql-over-http": {
       "since": "13.0.0",
-      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
+      "note": "Tracks the GraphQL over HTTP draft since 13.0.0 ([pr](https://github.com/ChilliCream/graphql-platform/pull/5367))"
     },
     "one-of": {
       "since": "13.0.0"
@@ -39,7 +39,7 @@
       "since": "16.0.0"
     },
     "semantic-non-null": {
-      "since": "14.0.0"
+      "since": "14.2.0"
     },
     "defer": {
       "since": "16.0.0",
@@ -100,6 +100,10 @@
     "covariant-fields-merging": {
       "since": "-",
       "note": ""
+    },
+    "empty-selection-sets": {
+      "since": "16.7.0",
+      "note": "Opt-in via `EnableEmptySelectionSets` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10337))"
     }
   }
 }

@@ -7,6 +7,10 @@
     "graphql-response+json": {
       "since": ""
     },
+    "graphql-over-http": {
+      "since": "",
+      "note": "Tracks the GraphQL over HTTP draft ([pr](https://github.com/ChilliCream/graphql-platform/pull/5367))"
+    },
     "one-of": {
       "since": ""
     },
@@ -33,7 +37,8 @@
       "since": ""
     },
     "semantic-non-null": {
-      "since": "-"
+      "since": "16.0.0",
+      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/9604)"
     },
     "defer": {
       "since": ""
@@ -80,6 +85,10 @@
     },
     "covariant-fields-merging": {
       "since": "-"
+    },
+    "empty-selection-sets": {
+      "since": "16.7.0",
+      "note": "Opt-in via `EnableEmptySelectionSets` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10337))"
     }
   }
 }
