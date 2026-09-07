@@ -9,7 +9,7 @@
     },
     "graphql-over-http": {
       "since": "",
-      "note": "Tracks the GraphQL over HTTP draft ([pr](https://github.com/ChilliCream/graphql-platform/pull/5367))"
+      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
     },
     "one-of": {
       "since": ""
