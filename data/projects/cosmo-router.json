@@ -1,0 +1,110 @@
+{
+  "name": "Cosmo Router",
+  "type": "gateway",
+  "description": "Open-source, Apache 2.0 GraphQL Federation router written in Go, part of the WunderGraph Cosmo platform.",
+  "url": "https://github.com/wundergraph/cosmo",
+  "features": {
+    "automatic-persisted-queries": {
+      "since": "0.140.0",
+      "note": "Off by default ([doc](https://cosmo-docs.wundergraph.com/router/persisted-queries/automatic-persisted-queries-apq))"
+    },
+    "capabilities": {
+      "since": "-",
+      "note": "In progress in the router's engine ([branch](https://github.com/wundergraph/graphql-go-tools/tree/on-error-spec-update))"
+    },
+    "defer": {
+      "since": "0.353.0",
+      "note": "Off by default; enable with `engine.enable_defer`. Implements `incrementalSpec=v0.2` and rejects clients that ask for the older `deferSpec=20220824` format. Versions 0.328.0 to 0.352.x used the older format ([doc](https://cosmo-docs.wundergraph.com/router/defer))"
+    },
+    "deprecated-input-values": {
+      "since": "0.232.1",
+      "note": "[doc](https://cosmo-docs.wundergraph.com/federation/directives/deprecated)"
+    },
+    "deprecated-objects": {
+      "since": "-"
+    },
+    "directives-on-directives": {
+      "since": "-"
+    },
+    "directives-on-variable-definitions": {
+      "since": ""
+    },
+    "empty-abstract-types": {
+      "since": "-",
+      "note": "Empty interfaces and unions are rejected"
+    },
+    "empty-object-types": {
+      "since": "-"
+    },
+    "empty-selection-sets": {
+      "since": "-",
+      "note": "The parser rejects `{}` ([pr](https://github.com/wundergraph/cosmo/pull/2031))"
+    },
+    "executable-documents-descriptions": {
+      "since": "0.261.0",
+      "note": "[pr](https://github.com/wundergraph/graphql-go-tools/pull/1331)"
+    },
+    "field-extensions": {
+      "since": "-"
+    },
+    "fragment-arguments": {
+      "since": "-"
+    },
+    "graphql-over-http": {
+      "since": "partial",
+      "note": "GET and POST are supported, but responses always use `application/json`"
+    },
+    "graphql-response+json": {
+      "since": "-"
+    },
+    "http-batching": {
+      "since": "0.198.0",
+      "note": "Off by default; enable with `batching.enabled` ([doc](https://cosmo-docs.wundergraph.com/router/query-batching))"
+    },
+    "interfaces-on-interfaces": {
+      "since": ""
+    },
+    "mutations": {
+      "since": ""
+    },
+    "on-error": {
+      "since": "-",
+      "note": "In progress in the router's engine ([branch](https://github.com/wundergraph/graphql-go-tools/tree/on-error-spec-update))"
+    },
+    "one-of": {
+      "since": "0.259.0",
+      "note": "[doc](https://cosmo-docs.wundergraph.com/federation/federation-directives-index)"
+    },
+    "persisted-documents": {
+      "since": "0.36.0 (partial)",
+      "note": "The protocol for persisted documents is still TBD ([doc](https://cosmo-docs.wundergraph.com/router/persisted-queries/persisted-operations))"
+    },
+    "queries": {
+      "since": ""
+    },
+    "query-http-verb": {
+      "since": "-"
+    },
+    "repeatable-directives": {
+      "since": ""
+    },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "partial",
+      "note": "Kept in the client schema, but the router does nothing with it. Requires composition 0.45.0 and wgc 0.93.1 ([doc](https://cosmo-docs.wundergraph.com/federation/directives/semanticnonnull))"
+    },
+    "specified-by": {
+      "since": "partial",
+      "note": "Subgraphs accept it, but composition strips it, so clients never see it ([doc](https://cosmo-docs.wundergraph.com/federation/directives/specifiedby))"
+    },
+    "stream": {
+      "since": "-"
+    },
+    "subscriptions": {
+      "since": "",
+      "note": "Over graphql-ws, SSE, multipart HTTP and legacy protocols ([doc](https://cosmo-docs.wundergraph.com/router/subscriptions))"
+    }
+  }
+}
