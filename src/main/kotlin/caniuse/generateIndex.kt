@@ -46,9 +46,9 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
           tr {
             th { +"Project Name" }
             th { +"Type" }
-            th { +"Not applicable" }
-            th { +"Unsupported" }
             th { +"Supported" }
+            th { +"Unsupported" }
+            th { +"Not applicable" }
           }
         }
         tbody {
@@ -58,11 +58,11 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
                 a(href = "project/${it.id}.html") { +it.name }
               }
               td { +it.type }
-              td { +it.na.toString() }
-              td { +it.unsupported.toString() }
               td {
                 +if (it.supported % 1.0 == 0.0) it.supported.toInt().toString() else it.supported.toString()
               }
+              td { +it.unsupported.toString() }
+              td { +it.na.toString() }
             }
           }
         }
@@ -80,7 +80,7 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
             }
             th {
               attributes["data-sort"] = "number"
-              +"Not Applicable"
+              +"Supported"
             }
             th {
               attributes["data-sort"] = "number"
@@ -88,7 +88,7 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
             }
             th {
               attributes["data-sort"] = "number"
-              +"Supported"
+              +"Not Applicable"
             }
           }
         }
@@ -100,11 +100,11 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
                 a(href = "feature/${it.id}.html") { +it.name }
                 it.tags.forEach { tag -> featureTagBadge(tag) }
               }
-              td { +it.na.toString() }
-              td { +it.unsupported.toString() }
               td {
                 +if (it.supported % 1.0 == 0.0) it.supported.toInt().toString() else it.supported.toString()
               }
+              td { +it.unsupported.toString() }
+              td { +it.na.toString() }
             }
           }
         }
