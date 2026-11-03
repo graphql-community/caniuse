@@ -38,3 +38,12 @@ tasks.register("buildSite") {
 tasks.register("buildSiteAndPageFind") {
     dependsOn(generatePageFind, copyStaticData)
 }
+
+tasks.register("serveSite", JavaExec::class.java) {
+    description = "Builds the site and serves it at http://localhost:8080/ (use -Pport=... to change)"
+    dependsOn(generateHtml, copyStaticData)
+    classpath(kotlin.target.compilations.getByName("main").output.classesDirs)
+    classpath(configurations.named("runtimeClasspath"))
+    mainClass.set("caniuse.serve.ServeKt")
+    args("build/site", providers.gradleProperty("port").getOrElse("8080"))
+}

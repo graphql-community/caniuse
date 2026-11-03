@@ -32,12 +32,14 @@ fun main(args: Array<String>) {
     outputDir.resolve("index.html").writeText(generateIndex(projects, features))
 
     val projectDir = outputDir.resolve("project")
+    projectDir.deleteRecursively()
     projectDir.mkdirs()
     projects.forEach { (id, project) ->
         projectDir.resolve("$id.html").writeText(generateProject(id, project, features, projects))
     }
 
     val featureDir = outputDir.resolve("feature")
+    featureDir.deleteRecursively()
     featureDir.mkdirs()
     features.forEach { (id, feature) ->
         featureDir.resolve("$id.html").writeText(generateFeature(id, feature, features, projects))

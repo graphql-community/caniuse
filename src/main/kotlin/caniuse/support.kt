@@ -27,7 +27,7 @@ internal fun featureEntries(projectId: String, project: Project, features: Map<S
     project.features.get(feature.key).toSupportEntry(
       projectId,
       feature.value.name,
-      "../feature/${feature.key}.html",
+      "../feature/${feature.key}",
       "https://github.com/$repo/edit/main/data/projects/$projectId.json",
       feature.value.tags
     )
@@ -39,7 +39,7 @@ internal fun projectEntries(featureId: String, projects: Map<String, Project>): 
     project.value.features.get(featureId).toSupportEntry(
       featureId,
       project.value.name,
-      "../project/${project.key}.html",
+      "../project/${project.key}",
       "https://github.com/$repo/edit/main/data/projects/${project.key}.json",
       emptyList()
     )

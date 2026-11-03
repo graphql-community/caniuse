@@ -55,7 +55,7 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
           sortedProjects(features, projects).forEach {
             tr {
               td {
-                a(href = "project/${it.id}.html") { +it.name }
+                a(href = "project/${it.id}") { +it.name }
               }
               td { +it.type }
               td {
@@ -97,7 +97,7 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
             tr {
               td {
                 attributes["data-sort-key"] = tagRank(it.tags).toString()
-                a(href = "feature/${it.id}.html") { +it.name }
+                a(href = "feature/${it.id}") { +it.name }
                 it.tags.forEach { tag -> featureTagBadge(tag) }
               }
               td {

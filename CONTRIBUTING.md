@@ -147,6 +147,14 @@ Valid values for `type` are:
 
 The generated site is in `build/site/`.
 
+Links between pages omit the `.html` extension (GitHub Pages resolves `/foo` to `foo.html`), so opening the files directly from disk won't work. To preview the site, run:
+
+```bash
+./gradlew serveSite # serves the site at http://localhost:8080/
+```
+
+Use `-Pport=...` to change the port.
+
 ## Guidelines
 
 - For new features and projects, link to the relevant spec or proposal via the feature's `url` field.
