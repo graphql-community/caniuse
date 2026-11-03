@@ -86,7 +86,7 @@
     "queries": {
       "since": ""
     },
-    "query-http-verb": {
+    "http-query": {
       "since": "16.12.0"
     },
     "repeatable-directives": {

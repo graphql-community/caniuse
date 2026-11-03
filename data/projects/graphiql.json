@@ -71,7 +71,7 @@
       "since": "",
       "note": ""
     },
-    "query-http-verb": {
+    "http-query": {
       "since": "6.0.0",
       "note": "[pr](https://github.com/graphql/graphiql/pull/4360)"
     },

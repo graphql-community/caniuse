@@ -31,7 +31,7 @@ internal fun featureEntries(projectId: String, project: Project, features: Map<S
       "https://github.com/$repo/edit/main/data/projects/$projectId.json",
       feature.value.tags
     )
-  }.sortedWith(compareBy<SupportEntry> { tagRank(it.tags) }.thenBy { it.name })
+  }.sortedWith(compareBy<SupportEntry> { tagRank(it.tags) }.thenBy { featureSortKey(it.name) })
 }
 
 internal fun projectEntries(featureId: String, projects: Map<String, Project>): List<SupportEntry> {
@@ -99,3 +99,10 @@ private fun SupportInfo?.toSupportEntry(
   )
 }
 
+
+/**
+ * A key for sorting feature names that ignores special characters such as `'@?` and case.
+ */
+internal fun featureSortKey(name: String): String {
+  return name.filter { it.isLetterOrDigit() || it.isWhitespace() }.trim().lowercase()
+}

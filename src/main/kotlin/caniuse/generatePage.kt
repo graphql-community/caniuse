@@ -148,7 +148,7 @@ internal fun generatePage(
             }
           }
           ul {
-            features.entries.sortedBy { it.value.name }.forEach { (featureId, feature) ->
+            features.entries.sortedBy { featureSortKey(it.value.name) }.forEach { (featureId, feature) ->
               li {
                 a(href = "${pathPrefix}feature/$featureId.html") {
                   classes = setOf("sidebar-link")

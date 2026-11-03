@@ -209,6 +209,6 @@ private fun sortedFeatures(features: Map<String, Feature>, projects: Map<String,
       tags = feature.value.tags,
     )
   }.sortedWith(
-    compareBy<DisplayFeature> { tagRank(it.tags) }.thenBy { it.name }
+    compareBy<DisplayFeature> { tagRank(it.tags) }.thenBy { featureSortKey(it.name) }
   )
 }

@@ -82,7 +82,7 @@
     "queries": {
       "since": ""
     },
-    "query-http-verb": {
+    "http-query": {
       "since": "-"
     },
     "repeatable-directives": {

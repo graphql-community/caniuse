@@ -90,7 +90,7 @@
       "since": "",
       "note": ""
     },
-    "query-http-verb": {
+    "http-query": {
       "since": "5.2.0",
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7016)"
     },
