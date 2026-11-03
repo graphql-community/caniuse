@@ -10,7 +10,7 @@
     },
     "capabilities": {
       "since": "-",
-      "note": "Will be provided by [GraphQL.js](graphql-js) [pr](https://github.com/graphql/graphql-js/pull/4523)"
+      "note": "Will be provided by [GraphQL.js](../project/graphql-js) [pr](https://github.com/graphql/graphql-js/pull/4523)"
     },
     "defer": {
       "since": "n/a",
@@ -26,7 +26,7 @@
     },
     "directives-on-directives": {
       "since": "-",
-      "note": "Will be provided by [GraphQL.js](graphql-js) [pr](https://github.com/graphql/graphql-js/pull/4521)"
+      "note": "Will be provided by [GraphQL.js](../project/graphql-js) [pr](https://github.com/graphql/graphql-js/pull/4521)"
     },
     "directives-on-variable-definitions": {
       "since": "",
@@ -34,14 +34,14 @@
     },
     "executable-documents-descriptions": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](graphql-js) starting in version 16.12.0 [pr](https://github.com/graphql/graphql-js/pull/4482)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting in version 16.12.0 [pr](https://github.com/graphql/graphql-js/pull/4482)"
     },
     "field-extensions": {
       "since": "?"
     },
     "fragment-arguments": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](graphql-js) starting in version 17.0.0-alpha.8 [pr](https://github.com/graphql/graphql-js/pull/4015)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting in version 17.0.0-alpha.8 [pr](https://github.com/graphql/graphql-js/pull/4015)"
     },
     "graphql-over-http": {
       "since": "n/a",
@@ -64,7 +64,7 @@
     },
     "on-error": {
       "since": "-",
-      "note": "Will be provided by [GraphQL.js](graphql-js) [pr](https://github.com/graphql/graphql-js/pull/4364)"
+      "note": "Will be provided by [GraphQL.js](../project/graphql-js) [pr](https://github.com/graphql/graphql-js/pull/4364)"
     },
     "one-of": {
       "since": "0.0.32",

@@ -17,42 +17,42 @@
     },
     "deprecated-input-values": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "deprecated-objects": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "directives-on-directives": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "directives-on-variable-definitions": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "empty-abstract-types": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "empty-object-types": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "empty-selection-sets": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "executable-documents-descriptions": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "field-extensions": {
       "since": "?"
     },
     "fragment-arguments": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "graphql-over-http": {
       "since": "partial",
@@ -67,7 +67,7 @@
     },
     "interfaces-on-interfaces": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "mutations": {
       "since": ""
@@ -77,7 +77,7 @@
     },
     "one-of": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "persisted-documents": {
       "since": "3.6.0",
@@ -91,7 +91,7 @@
     },
     "repeatable-directives": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "semantic-introspection": {
       "since": "-"
@@ -101,7 +101,7 @@
     },
     "specified-by": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
     "stream": {
       "since": "-"

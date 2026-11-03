@@ -83,7 +83,7 @@ If a feature is provided tranparently by another project, mark it as supported b
     // This project relies on GraphQL.js handling of fragment arguments.
     "fragment-arguments": {
       "since": "1.2.0",
-      "note": "Provided by [GraphQL.js](../graphql-js)"
+      "note": "Provided by [GraphQL.js](../project/graphql-js)"
     }
   }
 }
@@ -111,7 +111,7 @@ Sometimes a feature is provided by another project at a higher version than the 
     // Upgrade GraphQL.js to 16.12.0 to use fragment arguments
     "fragment-arguments": {
       "since": "n/a",
-      "note": "Provided by [GraphQL.js](../graphql-js) starting with 16.12.0"
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 16.12.0"
     }
   }
 }
