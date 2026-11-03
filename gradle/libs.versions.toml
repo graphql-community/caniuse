@@ -1,5 +1,5 @@
 [versions]
-kotlin = "2.4.0-Beta1"
+kotlin = "2.4.21"
 flexmark = "0.64.8"
 kotlinx-serialization = "1.11.0"
 

@@ -91,7 +91,7 @@
       "note": ""
     },
     "query-http-verb": {
-      "since": "main",
+      "since": "5.2.0",
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7016)"
     },
     "repeatable-directives": {
