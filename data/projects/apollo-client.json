@@ -37,7 +37,8 @@
       "since": "?"
     },
     "fragment-arguments": {
-      "since": "-"
+      "since": "-",
+      "note": "In progress ([pr](https://github.com/apollographql/apollo-client/pull/13508))"
     },
     "graphql-over-http": {
       "since": "4.0.0",
