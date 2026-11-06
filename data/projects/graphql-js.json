@@ -65,6 +65,10 @@
     "http-batching": {
       "since": "?"
     },
+    "http-query": {
+      "since": "n/a",
+      "note": "graphql-js is transport agnostic."
+    },
     "interfaces-on-interfaces": {
       "since": "",
       "note": ""

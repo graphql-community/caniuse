@@ -47,6 +47,10 @@
     "http-batching": {
       "since": "?"
     },
+    "http-query": {
+      "since": "n/a",
+      "note": "GraphQL code generator does not deal with transport concerns."
+    },
     "interfaces-on-interfaces": {
       "since": "",
       "note": ""

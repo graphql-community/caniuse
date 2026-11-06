@@ -54,6 +54,10 @@
     "http-batching": {
       "since": "?"
     },
+    "http-query": {
+      "since": "n/a",
+      "note": "Grats is transport agnostic."
+    },
     "interfaces-on-interfaces": {
       "since": "",
       "note": ""
