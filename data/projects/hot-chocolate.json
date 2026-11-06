@@ -57,6 +57,10 @@
       "since": "16.0.0",
       "note": "operation batching has been available since 13.0.0. Variable batching with 16.0.0 ([doc](https://chillicream.com/docs/hotchocolate/server/batching))"
     },
+    "http-query": {
+      "since": "16.7.0",
+      "note": "Opt-in via `EnableQueryRequests` ([pr](https://github.com/ChilliCream/graphql-platform/pull/10420))"
+    },
     "interfaces-on-interfaces": {
       "since": "",
       "note": ""
