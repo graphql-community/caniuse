@@ -48,6 +48,10 @@
     "http-batching": {
       "since": "?"
     },
+    "http-query": {
+      "since": "2.1.0-M1",
+      "note": "Opt-in via `GraphQlHttpHandler` builder `httpMethods(HttpMethod.QUERY, ...)` ([commit](https://github.com/spring-projects/spring-graphql/commit/adf8bea16e))"
+    },
     "interfaces-on-interfaces": {
       "since": "",
       "note": ""
