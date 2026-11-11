@@ -51,8 +51,8 @@
       "note": "[Read more.](https://the-guild.dev/graphql/yoga-server/docs/features/request-batching)"
     },
     "http-query": {
-      "since": "-",
-      "note": "In progress ([pr](https://github.com/graphql-hive/graphql-yoga/pull/4647))"
+      "since": "main",
+      "note": "[pr](https://github.com/graphql-hive/graphql-yoga/pull/4647)"
     },
     "interfaces-on-interfaces": {
       "since": "",
