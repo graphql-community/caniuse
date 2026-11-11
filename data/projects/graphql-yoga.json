@@ -63,7 +63,8 @@
       "note": ""
     },
     "on-error": {
-      "since": "-"
+      "since": "-",
+      "note": "In progress ([pr](https://github.com/graphql-hive/graphql-yoga/pull/4648))"
     },
     "one-of": {
       "since": "2.0.0",
