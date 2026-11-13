@@ -17,6 +17,8 @@ private fun tagStyle(tag: String): Tag {
   return when (tag) {
     "Experimental" -> Tag("#e535ab", "#fff", "This feature has not been merged in a specification draft yet")
     "draft" -> Tag("#85B913", "#fff", "This feature is merged in the spec draft but not released yet")
+    "HTTP Sep 2026" -> Tag("#425D09", "#fff", "This feature is part of the September 2026 release of the GraphQL over HTTP specification")
+    "Sep 2026" -> Tag("#425D09", "#fff", "This feature is part of the September 2026 release")
     "Sep 2025" -> Tag("#425D09", "#fff", "This feature is part of the September 2025 release")
     "Oct 2021" -> Tag("#425D09", "#fff", "This feature is part of the October 2021 release")
     "Jun 2018" -> Tag("#425D09", "#fff", "This feature is part of the June 2018 release")
