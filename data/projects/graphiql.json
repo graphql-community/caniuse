@@ -38,10 +38,6 @@
       "since": "main",
       "note": "[pr](https://github.com/graphql/graphiql/pull/4462)"
     },
-    "graphql-over-http": {
-      "since": "5.2.3",
-      "note": "[pr](https://github.com/graphql/graphiql/pull/4199)"
-    },
     "graphql-response+json": {
       "since": "5.2.3",
       "note": "[pr](https://github.com/graphql/graphiql/pull/4199)"

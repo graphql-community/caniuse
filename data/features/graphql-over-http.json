@@ -1,6 +1,0 @@
-{
-  "name": "GraphQL over HTTP",
-  "description": "Compliance with the [GraphQL over HTTP](https://http-spec.graphql.org/September2026/) specification, which defines how GraphQL requests and responses should be serialized and transported over HTTP.",
-  "url": "https://http-spec.graphql.org/September2026/",
-  "tags": ["HTTP Sep 2026"]
-}

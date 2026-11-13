@@ -43,10 +43,6 @@
       "since": "n/a",
       "note": "Provided by [GraphQL.js](../project/graphql-js) starting in version 17.0.0-alpha.8 [pr](https://github.com/graphql/graphql-js/pull/4015)"
     },
-    "graphql-over-http": {
-      "since": "n/a",
-      "note": "Grats is transport agnostic."
-    },
     "graphql-response+json": {
       "since": "n/a",
       "note": "Grats is transport agnostic."

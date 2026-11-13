@@ -40,10 +40,6 @@
     "fragment-arguments": {
       "since": "-"
     },
-    "graphql-over-http": {
-      "since": "n/a",
-      "note": "Provided by Spring for GraphQL ([Discussion](https://github.com/Netflix/dgs-framework/discussions/1728))"
-    },
     "graphql-response+json": {
       "since": "n/a",
       "note": "Provided by Spring for GraphQL ([Discussion](https://github.com/Netflix/dgs-framework/discussions/1728))"

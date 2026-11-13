@@ -38,10 +38,6 @@
     "fragment-arguments": {
       "since": "-"
     },
-    "graphql-over-http": {
-      "since": "3.4.1",
-      "note": "[pr](https://github.com/graphql-hive/graphql-yoga/pull/1616)"
-    },
     "graphql-response+json": {
       "since": "3.4.1",
       "note": "[pr](https://github.com/graphql-hive/graphql-yoga/pull/1616)"

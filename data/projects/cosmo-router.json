@@ -50,10 +50,6 @@
     "fragment-arguments": {
       "since": "-"
     },
-    "graphql-over-http": {
-      "since": "partial",
-      "note": "GET and POST are supported, but responses always use `application/json`"
-    },
     "graphql-response+json": {
       "since": "-"
     },

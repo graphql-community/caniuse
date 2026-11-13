@@ -40,10 +40,6 @@
       "since": "17.0.0",
       "note": "Requires `enable_fragment_argument_transform` feature flag ([pr](https://github.com/facebook/relay/pull/4648))"
     },
-    "graphql-over-http": {
-      "since": "n/a",
-      "note": "Relay is transport agnostic ([doc](https://relay.dev/docs/guides/network-layer/))."
-    },
     "graphql-response+json": {
       "since": "n/a",
       "note": "Relay is transport agnostic ([doc](https://relay.dev/docs/guides/network-layer/))."

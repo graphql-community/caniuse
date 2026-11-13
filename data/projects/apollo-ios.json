@@ -43,9 +43,6 @@
       "since": "-",
       "note": "Requires support in GraphQL.js"
     },
-    "graphql-over-http": {
-      "since": "1.16.1"
-    },
     "graphql-response+json": {
       "since": "1.16.1"
     },

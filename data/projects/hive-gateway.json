@@ -38,9 +38,6 @@
     "fragment-arguments": {
       "since": "-"
     },
-    "graphql-over-http": {
-      "since": "1.0.0"
-    },
     "graphql-response+json": {
       "since": "1.0.0"
     },

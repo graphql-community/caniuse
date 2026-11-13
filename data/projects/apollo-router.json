@@ -38,13 +38,9 @@
     "fragment-arguments": {
       "since": "-"
     },
-    "graphql-over-http": {
-      "since": "-",
-      "note": "[pr](https://github.com/apollographql/router/pull/9977)"
-    },
     "graphql-response+json": {
-      "since": "-",
-      "note": "[pr](https://github.com/apollographql/router/pull/9977)"
+      "since": "dev-v3.x",
+      "note": "Merged in the `dev-v3.x` branch, not released yet ([pr](https://github.com/apollographql/router/pull/9977))"
     },
     "http-batching": {
       "since": "2.6.0",

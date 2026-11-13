@@ -38,10 +38,6 @@
     "fragment-arguments": {
       "since": "?"
     },
-    "graphql-over-http": {
-      "since": "13.0.0",
-      "note": "[Apollo Server pull request](https://github.com/apollographql/apollo-server/pull/6827)"
-    },
     "graphql-response+json": {
       "since": "13.0.0",
       "note": "[Apollo Server pull request](https://github.com/apollographql/apollo-server/pull/6827)"

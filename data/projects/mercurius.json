@@ -54,10 +54,6 @@
       "since": "n/a",
       "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
-    "graphql-over-http": {
-      "since": "partial",
-      "note": "GET and POST are supported, but there is no `Accept` negotiation and responses to requests without data may use status 200."
-    },
     "graphql-response+json": {
       "since": "-"
     },

@@ -39,10 +39,6 @@
     "fragment-arguments": {
       "since": "-"
     },
-    "graphql-over-http": {
-      "since": "",
-      "note": "[pr](https://github.com/ChilliCream/graphql-platform/pull/5367)"
-    },
     "graphql-response+json": {
       "since": ""
     },

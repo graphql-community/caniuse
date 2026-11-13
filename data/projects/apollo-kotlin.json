@@ -55,10 +55,6 @@
       "since": "5.0.0-alpha.5",
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/6882), experimental and not documented yet."
     },
-    "graphql-over-http": {
-      "since": "4.1.0",
-      "note": "[Apollo Kotlin pull request](https://github.com/apollographql/apollo-kotlin/pull/6170)"
-    },
     "graphql-response+json": {
       "since": "4.1.0",
       "note": "[Apollo Kotlin pull request](https://github.com/apollographql/apollo-kotlin/pull/6170)"

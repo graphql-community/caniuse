@@ -44,10 +44,6 @@
       "since": "-",
       "note": "Not supported by urql's built-in parser."
     },
-    "graphql-over-http": {
-      "since": "3.2.0",
-      "note": "[pr](https://github.com/urql-graphql/urql/pull/3007)"
-    },
     "graphql-response+json": {
       "since": "3.2.0",
       "note": "[pr](https://github.com/urql-graphql/urql/pull/3007)"

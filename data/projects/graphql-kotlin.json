@@ -37,10 +37,6 @@
     "fragment-arguments": {
       "since": "?"
     },
-    "graphql-over-http": {
-      "since": "7.0.0",
-      "note": "[pr](https://github.com/ExpediaGroup/graphql-kotlin/pull/1699)"
-    },
     "graphql-response+json": {
       "since": "7.0.0",
       "note": "[pr](https://github.com/ExpediaGroup/graphql-kotlin/pull/1699)"

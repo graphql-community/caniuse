@@ -39,10 +39,6 @@
     "fragment-arguments": {
       "since": "-"
     },
-    "graphql-over-http": {
-      "since": "n/a",
-      "note": "gql.tada is transport agnostic."
-    },
     "graphql-response+json": {
       "since": "n/a",
       "note": "gql.tada is transport agnostic."
