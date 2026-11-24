@@ -22,7 +22,7 @@
       "since": "?"
     },
     "directives-on-directives": {
-      "since": "26.1",
+      "since": "master",
       "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4432)"
     },
     "directives-on-variable-definitions": {

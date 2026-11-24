@@ -59,8 +59,8 @@
       "since": "-"
     },
     "one-of": {
-      "since": "-",
-      "note": "Merged but not yet released ([pr](https://github.com/facebook/relay/pull/5108))"
+      "since": "21.0.0",
+      "note": "[pr](https://github.com/facebook/relay/pull/5108), [release](https://github.com/facebook/relay/releases/tag/v21.0.0)"
     },
     "persisted-documents": {
       "since": "?",

@@ -36,8 +36,8 @@
       "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035), empty objects and interfaces only (not verified for unions, input objects and enums)."
     },
     "empty-selection-sets": {
-      "since": "main",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7015)"
+      "since": "5.2.0",
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7015), [release](https://github.com/apollographql/apollo-kotlin/releases/tag/v5.2.0)"
     },
     "executable-documents-descriptions": {
       "since": "4.0.0",

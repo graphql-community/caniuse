@@ -37,8 +37,8 @@
       "since": "?"
     },
     "fragment-arguments": {
-      "since": "-",
-      "note": "In progress ([pr](https://github.com/apollographql/apollo-client/pull/13508))"
+      "since": "4.4.0-alpha.0",
+      "note": "Experimental, opt-in ([pr](https://github.com/apollographql/apollo-client/pull/13508), [release](https://github.com/apollographql/apollo-client/releases/tag/%40apollo%2Fclient%404.4.0-alpha.0))"
     },
     "graphql-response+json": {
       "since": "4.0.0",

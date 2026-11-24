@@ -35,8 +35,8 @@
       "since": "?"
     },
     "fragment-arguments": {
-      "since": "main",
-      "note": "[pr](https://github.com/graphql/graphiql/pull/4462)"
+      "since": "5.4.0",
+      "note": "Opt-in via `experimentalFragmentArguments` ([pr](https://github.com/graphql/graphiql/pull/4462), [release](https://github.com/graphql/graphiql/releases/tag/graphiql%405.4.0))"
     },
     "graphql-response+json": {
       "since": "5.2.3",
