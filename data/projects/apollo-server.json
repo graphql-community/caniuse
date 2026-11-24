@@ -23,14 +23,20 @@
       "since": "?"
     },
     "directives-on-directives": {
-      "since": "?"
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 16.14.0. On 16.x, the flag can't be passed through `typeDefs`: build the schema with `buildSchema(sdl, { experimentalDirectivesOnDirectiveDefinitions: true })` and pass it as `schema`. Works without the flag on 17.x, which is outside Apollo Server's `graphql@^16.11.0` peer range."
     },
     "directives-on-variable-definitions": {
       "since": "",
       "note": ""
     },
+    "empty-selection-sets": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 17.1.0, which is outside Apollo Server's `graphql@^16.11.0` peer range."
+    },
     "executable-documents-descriptions": {
-      "since": "?"
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 16.12.0"
     },
     "field-extensions": {
       "since": "?"

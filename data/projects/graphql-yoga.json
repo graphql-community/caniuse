@@ -23,14 +23,20 @@
       "since": "-"
     },
     "directives-on-directives": {
-      "since": "-"
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 17.0.0"
     },
     "directives-on-variable-definitions": {
       "since": "",
       "note": ""
     },
+    "empty-selection-sets": {
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 17.1.0"
+    },
     "executable-documents-descriptions": {
-      "since": "-"
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 16.12.0"
     },
     "field-extensions": {
       "since": "?"
