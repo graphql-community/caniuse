@@ -23,14 +23,20 @@
       "since": "-"
     },
     "directives-on-directives": {
-      "since": "-"
+      "since": "-",
+      "note": "Implemented in apollo-compiler `2.0.0-beta.2` ([apollo-rs pr](https://github.com/apollographql/apollo-rs/pull/1111)). The router `dev-v3.x` branch still uses `2.0.0-beta.1`."
     },
     "directives-on-variable-definitions": {
       "since": "",
       "note": ""
     },
+    "empty-selection-sets": {
+      "since": "-",
+      "note": "Implemented in apollo-compiler `2.0.0-beta.2` ([parser pr](https://github.com/apollographql/apollo-rs/pull/1115), [compiler pr](https://github.com/apollographql/apollo-rs/pull/1116)). The router `dev-v3.x` branch still uses `2.0.0-beta.1`."
+    },
     "executable-documents-descriptions": {
-      "since": "-"
+      "since": "dev-v3.x",
+      "note": "Merged in the `dev-v3.x` branch with the upgrade to apollo-compiler v2 ([pr](https://github.com/apollographql/router/pull/10119)), available in `v3.0.0-preview.0`, not in a stable release yet. Parsing comes from [apollo-rs](https://github.com/apollographql/apollo-rs/pull/974)."
     },
     "field-extensions": {
       "since": "?"
