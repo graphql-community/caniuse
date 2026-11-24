@@ -2,7 +2,7 @@
   "name": "GraphQL Kotlin",
   "type": "server",
   "description": "Implementation first server for Kotlin.",
-  "url": "https://github.com/expoedia/graphql-kotlin",
+  "url": "https://github.com/ExpediaGroup/graphql-kotlin",
   "features": {
     "automatic-persisted-queries": {
       "since": "",
