@@ -25,23 +25,27 @@
       "note": "Requires support in GraphQL.js"
     },
     "directives-on-directives": {
-      "since": "-",
-      "note": "Requires support in GraphQL.js"
+      "since": "2.2.0",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) 17.0.1, bundled since Apollo iOS 2.2.0 ([pr](https://github.com/apollographql/apollo-ios-dev/pull/1033))"
     },
     "directives-on-variable-definitions": {
       "since": "",
       "note": ""
     },
-    "executable-documents-descriptions": {
+    "empty-selection-sets": {
       "since": "-",
-      "note": "Requires support in GraphQL.js"
+      "note": "Requires [GraphQL.js](../project/graphql-js) 17.1.0. Apollo iOS 2.5.0 bundles 17.0.1"
+    },
+    "executable-documents-descriptions": {
+      "since": "2.1.0 (partial)",
+      "note": "Descriptions are parsed by [GraphQL.js](../project/graphql-js) 17.0.0-alpha.11 and later, but Apollo iOS does not use them in the generated code"
     },
     "field-extensions": {
       "since": "?"
     },
     "fragment-arguments": {
       "since": "-",
-      "note": "Requires support in GraphQL.js"
+      "note": "[GraphQL.js](../project/graphql-js) can parse fragment arguments with `experimentalFragmentArguments`, but Apollo iOS does not turn this option on"
     },
     "graphql-response+json": {
       "since": "1.16.1"
