@@ -1,6 +1,0 @@
-{
-  "name": "Empty objects",
-  "description": "Allow object types with no fields:\n\n```graphql\ntype Query {\n  topAuthors: [Author!]\n}\ntype Author {\n  name: String!\n  topBooks: [Book!]\n}\n# this is valid\ntype Book {}\n```\n\nThis is useful to represent partial schemas (for example to feed an LLM), or to deprecate all the fields of a type without making the schema invalid.",
-  "url": "https://github.com/graphql/graphql-spec/pull/1228",
-  "tags": ["Experimental", "RFC1"]
-}

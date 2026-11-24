@@ -1,0 +1,6 @@
+{
+  "name": "Empty types",
+  "description": "Allow object types, interfaces and input objects with no fields, unions with no members and enums with no values:\n\n```graphql\ntype Query {\n  topAuthors: [Author!]\n}\ntype Author {\n  name: String!\n  topBooks: [Book!]\n}\n# all of these are valid\ntype Book\ninterface Marker\ninput Filter\nunion Nothing\nenum Never\n```\n\nThis is useful to represent partial schemas (for example subschemas extracted from a larger schema to feed an LLM), to deprecate all the fields of a type without making the schema invalid, and avoids having to pick unions over interfaces only because interfaces must have fields.",
+  "url": "https://github.com/graphql/graphql-spec/pull/1260",
+  "tags": ["Experimental", "RFC1"]
+}

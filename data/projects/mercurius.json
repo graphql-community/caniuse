@@ -31,11 +31,7 @@
       "since": "n/a",
       "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },
-    "empty-abstract-types": {
-      "since": "n/a",
-      "note": "Provided by [GraphQL.js](../project/graphql-js)"
-    },
-    "empty-object-types": {
+    "empty-types": {
       "since": "n/a",
       "note": "Provided by [GraphQL.js](../project/graphql-js)"
     },

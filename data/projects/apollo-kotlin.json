@@ -31,13 +31,9 @@
       "since": "",
       "note": ""
     },
-    "empty-abstract-types": {
+    "empty-types": {
       "since": "main",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035), empty interfaces only (not verified for unions)."
-    },
-    "empty-object-types": {
-      "since": "main",
-      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035)"
+      "note": "[pr](https://github.com/apollographql/apollo-kotlin/pull/7035), empty objects and interfaces only (not verified for unions, input objects and enums)."
     },
     "empty-selection-sets": {
       "since": "main",

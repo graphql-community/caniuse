@@ -29,12 +29,9 @@
     "directives-on-variable-definitions": {
       "since": ""
     },
-    "empty-abstract-types": {
+    "empty-types": {
       "since": "-",
-      "note": "Empty interfaces and unions are rejected"
-    },
-    "empty-object-types": {
-      "since": "-"
+      "note": "Empty objects, interfaces and unions are rejected"
     },
     "empty-selection-sets": {
       "since": "-",

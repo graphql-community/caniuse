@@ -31,13 +31,9 @@
       "since": "",
       "note": ""
     },
-    "empty-abstract-types": {
+    "empty-types": {
       "since": "-",
-      "note": "[pr](https://github.com/graphql/graphql-js/pull/4863)"
-    },
-    "empty-object-types": {
-      "since": "-",
-      "note": "[pr](https://github.com/graphql/graphql-js/pull/4862)"
+      "note": "[objects pr](https://github.com/graphql/graphql-js/pull/4862), [interfaces and unions pr](https://github.com/graphql/graphql-js/pull/4863)"
     },
     "empty-selection-sets": {
       "since": "-",

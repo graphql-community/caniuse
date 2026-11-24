@@ -1,6 +1,0 @@
-{
-  "name": "Empty abstract types",
-  "description": "Allow interfaces with no fields and unions with no members:\n\n```graphql\n# this is valid\ninterface Marker {}\n\n# this is valid too\nunion Nothing\n```\n\nThis is useful to represent partial schemas (for example subschemas extracted from a larger schema), and avoids having to pick unions over interfaces only because interfaces must have fields.",
-  "url": "https://github.com/graphql/graphql-spec/pull/1229",
-  "tags": ["Experimental", "RFC1"]
-}
