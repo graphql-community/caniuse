@@ -63,8 +63,8 @@
       "note": "[pr](https://github.com/facebook/relay/pull/5108), [release](https://github.com/facebook/relay/releases/tag/v21.0.0)"
     },
     "persisted-documents": {
-      "since": "?",
-      "note": ""
+      "since": "2.0.0 (partial)",
+      "note": "The protocol for persisted documents is still TBD ([pr](https://github.com/facebook/relay/pull/2354), [doc](https://relay.dev/docs/guides/persisted-queries/))"
     },
     "queries": {
       "since": "",

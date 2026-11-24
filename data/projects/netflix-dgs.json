@@ -35,7 +35,8 @@
       "note": "Requires GraphQL Java support"
     },
     "field-extensions": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support"
     },
     "fragment-arguments": {
       "since": "-"
@@ -87,7 +88,8 @@
       "note": ""
     },
     "stream": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support ([issue](https://github.com/graphql-java/graphql-java/issues/4497))"
     },
     "subscriptions": {
       "since": "",

@@ -9,7 +9,8 @@
       "note": ""
     },
     "capabilities": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires support in [GraphQL.js](../project/graphql-js) ([pr](https://github.com/graphql/graphql-js/pull/4523))"
     },
     "defer": {
       "since": "5.1.0",
@@ -20,7 +21,8 @@
       "note": ""
     },
     "deprecated-objects": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires support in [GraphQL.js](../project/graphql-js) ([pr](https://github.com/graphql/graphql-js/pull/3818))"
     },
     "directives-on-directives": {
       "since": "n/a",
@@ -42,14 +44,16 @@
       "since": "?"
     },
     "fragment-arguments": {
-      "since": "?"
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 17.0.0-alpha.8, which is outside Apollo Server's `graphql@^16.11.0` peer range."
     },
     "graphql-response+json": {
       "since": "13.0.0",
       "note": "[Apollo Server pull request](https://github.com/apollographql/apollo-server/pull/6827)"
     },
     "http-batching": {
-      "since": "?"
+      "since": "1.0.0",
+      "note": "Opt-in via `allowBatchedHttpRequests` since 4.0.0 ([doc](https://www.apollographql.com/docs/apollo-server/api/apollo-server#allowbatchedhttprequests))"
     },
     "interfaces-on-interfaces": {
       "since": "",
@@ -60,10 +64,12 @@
       "note": ""
     },
     "on-error": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires support in [GraphQL.js](../project/graphql-js) ([pr](https://github.com/graphql/graphql-js/pull/4364))"
     },
     "one-of": {
-      "since": "?"
+      "since": "n/a",
+      "note": "Provided by [GraphQL.js](../project/graphql-js) starting with 16.9.0"
     },
     "persisted-documents": {
       "since": "(partial)",

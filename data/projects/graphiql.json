@@ -12,7 +12,8 @@
       "since": "?"
     },
     "defer": {
-      "since": "?"
+      "since": "1.4.0",
+      "note": "Supports the latest incremental delivery format since 3.5.0 ([pr](https://github.com/graphql/graphiql/pull/1770), [pr](https://github.com/graphql/graphiql/pull/3682))"
     },
     "deprecated-input-values": {
       "since": "",
@@ -86,7 +87,8 @@
       "note": ""
     },
     "stream": {
-      "since": "?"
+      "since": "1.4.0",
+      "note": "Supports the latest incremental delivery format since 3.5.0 ([pr](https://github.com/graphql/graphiql/pull/1770), [pr](https://github.com/graphql/graphiql/pull/3682))"
     },
     "subscriptions": {
       "since": "",

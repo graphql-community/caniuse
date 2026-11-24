@@ -73,7 +73,8 @@
       "note": ""
     },
     "semantic-introspection": {
-      "since": "-"
+      "since": "-",
+      "note": "In progress ([pr](https://github.com/graphql-hive/gateway/pull/2387))"
     },
     "semantic-non-null": {
       "since": "-"

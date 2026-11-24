@@ -9,17 +9,20 @@
       "note": ""
     },
     "capabilities": {
-      "since": "?"
+      "since": "-",
+      "note": "[issue](https://github.com/graphql-java/graphql-java/issues/3992)"
     },
     "defer": {
-      "since": "?"
+      "since": "22.0 (partial)",
+      "note": "Experimental. Uses an older incremental delivery format ([release](https://github.com/graphql-java/graphql-java/releases/tag/v22.0), [issue](https://github.com/graphql-java/graphql-java/issues/4497))"
     },
     "deprecated-input-values": {
       "since": "",
       "note": ""
     },
     "deprecated-objects": {
-      "since": "?"
+      "since": "-",
+      "note": "[issue](https://github.com/graphql-java/graphql-java/issues/4268)"
     },
     "directives-on-directives": {
       "since": "master",
@@ -34,10 +37,12 @@
       "note": "[pr](https://github.com/graphql-java/graphql-java/pull/4392)"
     },
     "field-extensions": {
-      "since": "?"
+      "since": "-",
+      "note": "Type extensions that redefine a field are rejected ([source](https://github.com/graphql-java/graphql-java/blob/v26.2/src/main/java/graphql/schema/idl/SchemaTypeExtensionsChecker.java))"
     },
     "fragment-arguments": {
-      "since": "?"
+      "since": "-",
+      "note": "[issue](https://github.com/graphql-java/graphql-java/issues/3750)"
     },
     "graphql-response+json": {
       "since": "n/a",
@@ -81,14 +86,16 @@
       "since": "?"
     },
     "semantic-non-null": {
-      "since": "?"
+      "since": "-",
+      "note": "In progress ([pr](https://github.com/graphql-java/graphql-java/pull/4401))"
     },
     "specified-by": {
       "since": "",
       "note": ""
     },
     "stream": {
-      "since": "?"
+      "since": "-",
+      "note": "[issue](https://github.com/graphql-java/graphql-java/issues/4497)"
     },
     "subscriptions": {
       "since": "",

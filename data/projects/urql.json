@@ -5,8 +5,8 @@
   "url": "https://github.com/FormidableLabs/urql",
   "features": {
     "automatic-persisted-queries": {
-      "since": "?",
-      "note": ""
+      "since": "",
+      "note": "With the `@urql/exchange-persisted` package ([doc](https://github.com/urql-graphql/urql/blob/main/docs/advanced/persistence-and-uploads.md))"
     },
     "capabilities": {
       "since": "n/a",
@@ -69,8 +69,8 @@
       "note": "urql does not perform schema validation or generate input object types; OneOf variables are sent as regular GraphQL variables."
     },
     "persisted-documents": {
-      "since": "?",
-      "note": ""
+      "since": "4.3.0 (partial)",
+      "note": "Sends a `documentId` instead of the query. The protocol for persisted documents is still TBD ([pr](https://github.com/urql-graphql/urql/pull/3515))"
     },
     "queries": {
       "since": "",

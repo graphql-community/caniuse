@@ -5,11 +5,12 @@
   "url": "https://github.com/spring-projects/spring-graphql",
   "features": {
     "automatic-persisted-queries": {
-      "since": "?",
-      "note": ""
+      "since": "",
+      "note": "Via GraphQL Java's `ApolloPersistedQuerySupport` ([doc](https://docs.spring.io/spring-graphql/reference/request-execution.html#execution.graphqlsource.operation-caching))"
     },
     "capabilities": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support ([issue](https://github.com/graphql-java/graphql-java/issues/3992))"
     },
     "defer": {
       "since": "?"
@@ -19,23 +20,28 @@
       "note": ""
     },
     "deprecated-objects": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support ([issue](https://github.com/graphql-java/graphql-java/issues/4268))"
     },
     "directives-on-directives": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support, merged in `master` but not released yet ([pr](https://github.com/graphql-java/graphql-java/pull/4432))"
     },
     "directives-on-variable-definitions": {
       "since": "",
       "note": ""
     },
     "executable-documents-descriptions": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support, merged in `master` but not released yet ([pr](https://github.com/graphql-java/graphql-java/pull/4392))"
     },
     "field-extensions": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support"
     },
     "fragment-arguments": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support ([issue](https://github.com/graphql-java/graphql-java/issues/3750))"
     },
     "graphql-response+json": {
       "since": "1.4.0",
@@ -57,7 +63,8 @@
       "note": ""
     },
     "on-error": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support ([pr](https://github.com/graphql-java/graphql-java/pull/4378))"
     },
     "one-of": {
       "since": "?"
@@ -85,7 +92,8 @@
       "note": ""
     },
     "stream": {
-      "since": "?"
+      "since": "-",
+      "note": "Requires GraphQL Java support ([issue](https://github.com/graphql-java/graphql-java/issues/4497))"
     },
     "subscriptions": {
       "since": "",

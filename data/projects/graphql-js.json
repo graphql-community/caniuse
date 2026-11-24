@@ -13,7 +13,8 @@
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4523)"
     },
     "defer": {
-      "since": "?"
+      "since": "17.0.0",
+      "note": "Experimental, via `experimentalExecuteIncrementally` ([release](https://github.com/graphql/graphql-js/releases/tag/v17.0.0))"
     },
     "deprecated-input-values": {
       "since": "",
@@ -44,7 +45,8 @@
       "note": "[pr](https://github.com/graphql/graphql-js/pull/4482)"
     },
     "field-extensions": {
-      "since": "?"
+      "since": "-",
+      "note": "Redefining a field in a type extension is rejected (checked with 16.15.0 and 17.1.0) ([source](https://github.com/graphql/graphql-js/blob/v17.1.0/src/validation/rules/UniqueFieldDefinitionNamesRule.ts))"
     },
     "fragment-arguments": {
       "since": "17.0.0-alpha.8",
@@ -100,7 +102,8 @@
       "note": ""
     },
     "stream": {
-      "since": "?"
+      "since": "17.0.0",
+      "note": "Experimental, via `experimentalExecuteIncrementally` ([release](https://github.com/graphql/graphql-js/releases/tag/v17.0.0))"
     },
     "subscriptions": {
       "since": "",
