@@ -58,8 +58,8 @@
       "since": "-"
     },
     "one-of": {
-      "since": "-",
-      "note": "[apollo-rs pr](https://github.com/apollographql/apollo-rs/pull/1030) is merged. Needs to be included in the router."
+      "since": "dev-v3.x",
+      "note": "Merged in the `dev-v3.x` branch, available in `v3.0.0-preview.0`, not in a stable release yet ([pr](https://github.com/apollographql/router/pull/10124)). Stable 2.x releases still use apollo-compiler 1.x, which lacks `@oneOf` ([apollo-rs pr](https://github.com/apollographql/apollo-rs/pull/1030))."
     },
     "persisted-documents": {
       "since": "(partial)",
