@@ -1,0 +1,109 @@
+{
+  "name": "apollo-rs",
+  "type": "implementation",
+  "description": "Spec compliant GraphQL tools in Rust: a parser (apollo-parser) and a validating compiler with resolver-based execution (apollo-compiler). Versions are apollo-compiler versions.",
+  "url": "https://github.com/apollographql/apollo-rs",
+  "features": {
+    "automatic-persisted-queries": {
+      "since": "n/a",
+      "note": "apollo-rs is transport agnostic."
+    },
+    "capabilities": {
+      "since": "-"
+    },
+    "defer": {
+      "since": "1.33.0 (partial)",
+      "note": "Validation only ([pr](https://github.com/apollographql/apollo-rs/pull/1069)). `@defer` is not a built-in directive, so the schema must declare it, and execution does not deliver incrementally."
+    },
+    "deprecated-input-values": {
+      "since": "",
+      "note": ""
+    },
+    "deprecated-objects": {
+      "since": "-"
+    },
+    "directives-on-directives": {
+      "since": "2.0.0-beta.2",
+      "note": "[pr](https://github.com/apollographql/apollo-rs/pull/1111)"
+    },
+    "directives-on-variable-definitions": {
+      "since": "",
+      "note": ""
+    },
+    "empty-selection-sets": {
+      "since": "2.0.0-beta.2",
+      "note": "[parser pr](https://github.com/apollographql/apollo-rs/pull/1115), [compiler pr](https://github.com/apollographql/apollo-rs/pull/1116)"
+    },
+    "empty-types": {
+      "since": "-"
+    },
+    "executable-documents-descriptions": {
+      "since": "2.0.0-beta.0",
+      "note": "[pr](https://github.com/apollographql/apollo-rs/pull/974)"
+    },
+    "field-extensions": {
+      "since": "-",
+      "note": "Redefining a field in a type extension is rejected (checked with 2.0.0-beta.2)"
+    },
+    "fragment-arguments": {
+      "since": "-"
+    },
+    "graphql-response+json": {
+      "since": "n/a",
+      "note": "apollo-rs is transport agnostic."
+    },
+    "http-batching": {
+      "since": "n/a",
+      "note": "apollo-rs is transport agnostic."
+    },
+    "http-query": {
+      "since": "n/a",
+      "note": "apollo-rs is transport agnostic."
+    },
+    "interfaces-on-interfaces": {
+      "since": "",
+      "note": ""
+    },
+    "mutations": {
+      "since": "",
+      "note": ""
+    },
+    "on-error": {
+      "since": "-"
+    },
+    "one-of": {
+      "since": "2.0.0-beta.0",
+      "note": "[pr](https://github.com/apollographql/apollo-rs/pull/1030)"
+    },
+    "persisted-documents": {
+      "since": "n/a",
+      "note": "apollo-rs is transport agnostic."
+    },
+    "queries": {
+      "since": "",
+      "note": ""
+    },
+    "repeatable-directives": {
+      "since": "",
+      "note": ""
+    },
+    "semantic-introspection": {
+      "since": "-"
+    },
+    "semantic-non-null": {
+      "since": "n/a",
+      "note": "`@semanticNonNull` is not a built-in directive. Schemas that use it declare it themselves."
+    },
+    "specified-by": {
+      "since": "",
+      "note": ""
+    },
+    "stream": {
+      "since": "-"
+    },
+    "subscriptions": {
+      "since": "",
+      "note": ""
+    }
+  }
+}
