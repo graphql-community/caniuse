@@ -123,7 +123,7 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
       projectTypes.forEach { type ->
         h3 { anchored(type.anchor, type.name) }
         p { +type.description }
-        val typeProjects = projects.entries.filter { type.id in it.value.types }.sortedBy { it.value.name }
+        val typeProjects = projects.entries.filter { type.id in it.value.types }.sortedBy { it.value.name.lowercase() }
         if (typeProjects.isNotEmpty()) {
           p {
             b { +"Projects: " }
@@ -219,7 +219,7 @@ private fun sortedProjects(features: Map<String, Feature>, projects: Map<String,
       unsupported = statuses.count { it is NotSupported || it is Unknown },
       na = statuses.count { it is NotApplicable },
     )
-  }.sortedBy { it.name }
+  }.sortedBy { it.name.lowercase() }
 }
 
 private fun sortedFeatures(features: Map<String, Feature>, projects: Map<String, Project>): List<DisplayFeature> {

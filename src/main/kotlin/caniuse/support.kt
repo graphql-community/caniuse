@@ -43,7 +43,7 @@ internal fun projectEntries(featureId: String, projects: Map<String, Project>): 
       "https://github.com/$repo/edit/main/data/projects/${project.key}.json",
       emptyList()
     )
-  }.sortedBy { it.name }
+  }.sortedBy { it.name.lowercase() }
 }
 
 internal fun SupportStatus?.score(): Double = when (this) {

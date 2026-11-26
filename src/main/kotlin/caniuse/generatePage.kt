@@ -133,7 +133,7 @@ internal fun generatePage(
             }
           }
           ul {
-            projects.entries.sortedBy { it.value.name }.forEach { (projectId, project) ->
+            projects.entries.sortedBy { it.value.name.lowercase() }.forEach { (projectId, project) ->
               li {
                 a(href = "${pathPrefix}project/$projectId") {
                   classes = setOf("sidebar-link")
