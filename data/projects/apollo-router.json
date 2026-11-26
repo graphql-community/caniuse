@@ -1,6 +1,6 @@
 {
   "name": "Apollo Router",
-  "type": "gateway",
+  "types": ["gateway"],
   "description": "A configurable, high-performance routing runtime for Apollo Federation",
   "url": "https://github.com/apollographql/router",
   "features": {

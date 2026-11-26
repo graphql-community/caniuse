@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Project(
     val name: String,
-    val type: String,
+    val types: List<String>,
     val description: String,
     val url: String,
     val features: Map<String, SupportInfo?>,

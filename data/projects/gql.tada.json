@@ -1,6 +1,6 @@
 {
   "name": "gql.tada",
-  "type": "tool",
+  "types": ["tool"],
   "description": "Magical GraphQL query engine for TypeScript.",
   "url": "https://github.com/0no-co/gql.tada",
   "features": {

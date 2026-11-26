@@ -47,6 +47,12 @@ internal val projectTypes = listOf(
   ),
 )
 
+internal fun Project.projectTypes(): List<ProjectType> {
+  check(types.isNotEmpty()) { "Project '$name' must have at least one type" }
+  check(types.distinct().size == types.size) { "Project '$name' has duplicate types: $types" }
+  return types.map { projectType(it) }
+}
+
 internal fun projectType(id: String): ProjectType {
   return projectTypes.firstOrNull { it.id == id }
     ?: error("Unknown project type '$id'. Valid values are: ${projectTypes.joinToString { "'${it.id}'" }}")

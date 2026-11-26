@@ -1,6 +1,6 @@
 {
   "name": "Mercurius",
-  "type": "gateway",
+  "types": ["gateway"],
   "description": "Implement GraphQL servers and gateways with Fastify.",
   "url": "https://github.com/mercurius-js/mercurius",
   "features": {

@@ -10,9 +10,12 @@ internal fun generateProject(id: String, project: Project, features: Map<String,
     h1 { +project.name }
     div("markdown") { markdown(project.description) }
     p {
-      b { +"Type: " }
-      val type = projectType(project.type)
-      a(href = "../#${type.anchor}") { +type.name }
+      val types = project.projectTypes()
+      b { +if (types.size > 1) "Types: " else "Type: " }
+      types.forEachIndexed { index, type ->
+        if (index > 0) +", "
+        a(href = "../#${type.anchor}") { +type.name }
+      }
     }
     p {
       b { +"Website: " }

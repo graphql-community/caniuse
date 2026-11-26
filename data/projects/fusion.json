@@ -1,6 +1,6 @@
 {
   "name": "Fusion",
-  "type": "gateway",
+  "types": ["gateway"],
   "description": "Fusion is ChilliCream's GraphQL federation gateway for .NET, part of the GraphQL Platform",
   "url": "https://github.com/ChilliCream/graphql-platform",
   "features": {

@@ -1,6 +1,6 @@
 {
   "name": "urql",
-  "type": "client",
+  "types": ["client"],
   "description": "A highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.",
   "url": "https://github.com/FormidableLabs/urql",
   "features": {

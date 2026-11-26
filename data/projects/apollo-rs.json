@@ -1,6 +1,6 @@
 {
   "name": "apollo-rs",
-  "type": "implementation",
+  "types": ["implementation"],
   "description": "Spec compliant GraphQL tools in Rust: a parser (apollo-parser) and a validating compiler with resolver-based execution (apollo-compiler). Versions are apollo-compiler versions.",
   "url": "https://github.com/apollographql/apollo-rs",
   "features": {

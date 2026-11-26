@@ -1,6 +1,6 @@
 {
   "name": "GraphQL Kotlin",
-  "type": "server",
+  "types": ["server"],
   "description": "Implementation first server for Kotlin.",
   "url": "https://github.com/ExpediaGroup/graphql-kotlin",
   "features": {

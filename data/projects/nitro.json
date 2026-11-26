@@ -1,6 +1,6 @@
 {
   "name": "Nitro",
-  "type": "ide",
+  "types": ["ide"],
   "description": "Nitro is a cross-platform GraphQL IDE.",
   "url": "https://chillicream.com/products/nitro",
   "features": {

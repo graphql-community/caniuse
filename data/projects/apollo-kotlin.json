@@ -1,6 +1,6 @@
 {
   "name": "Apollo Kotlin",
-  "type": "client",
+  "types": ["implementation", "client"],
   "description": "A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform. Over time, Apollo Kotlin grew into a full Kotlin implementation of the GraphQL spec. This explains why features such as capabilities or direcdtives on directives are implemented",
   "url": "https://github.com/apollographql/apollo-kotlin",
   "features": {

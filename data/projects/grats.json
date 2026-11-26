@@ -1,6 +1,6 @@
 {
   "name": "Grats",
-  "type": "server",
+  "types": ["server"],
   "description": "Implementation-First GraphQL for TypeScript.",
   "url": "https://github.com/captbaritone/grats",
   "features": {

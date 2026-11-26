@@ -1,6 +1,6 @@
 {
   "name": "GraphiQL",
-  "type": "ide",
+  "types": ["ide"],
   "description": "An interactive in-browser GraphQL IDE.",
   "url": "https://github.com/graphql/graphiql",
   "features": {

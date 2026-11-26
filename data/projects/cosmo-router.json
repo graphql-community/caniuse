@@ -1,6 +1,6 @@
 {
   "name": "Cosmo Router",
-  "type": "gateway",
+  "types": ["gateway"],
   "description": "Open-source, Apache 2.0 GraphQL Federation router written in Go, part of the WunderGraph Cosmo platform.",
   "url": "https://github.com/wundergraph/cosmo",
   "features": {

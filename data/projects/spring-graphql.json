@@ -1,6 +1,6 @@
 {
   "name": "Spring for GraphQL",
-  "type": "server",
+  "types": ["server"],
   "description": "Spring for GraphQL provides support for Spring applications built on GraphQL Java.",
   "url": "https://github.com/spring-projects/spring-graphql",
   "features": {

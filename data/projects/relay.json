@@ -1,6 +1,6 @@
 {
   "name": "Relay",
-  "type": "client",
+  "types": ["client"],
   "description": "Facebook's framework for building React applications that talk to a GraphQL backend.",
   "url": "https://github.com/facebook/relay",
   "features": {

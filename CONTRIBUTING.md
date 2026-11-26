@@ -39,14 +39,14 @@ Create a new file `data/projects/<project-id>.json`:
 ```json
 {
   "name": "My Project",
-  "type": "client",
+  "types": ["client"],
   "description": "A short description of the project.",
   "url": "https://github.com/org/my-project",
   "features": {}
 }
 ```
 
-`type` must be one of the values listed in [Project types](#project-types).
+`types` lists one or more of the values in [Project types](#project-types). A project can have several types, for example Apollo Kotlin is both an `implementation` and a `client`.
 
 Then add feature support entries as described above.
 
@@ -121,7 +121,7 @@ Because `n/a` features are not "unsupported", they count toward the overall scor
 
 ## Project types
 
-Valid values for `type` are listed below (use the lowercase value in project files, e.g. `ide`). They are defined in [`ProjectTypes.kt`](src/main/kotlin/caniuse/ProjectTypes.kt), and each type has its own anchor on the site: `https://caniuse.graphql.now/#type-<type>` (e.g. `#type-gateway`).
+Valid values for `types` are listed below (use the lowercase value in project files, e.g. `ide`). They are defined in [`ProjectTypes.kt`](src/main/kotlin/caniuse/ProjectTypes.kt), and each type has its own anchor on the site: `https://caniuse.graphql.now/#type-<type>` (e.g. `#type-gateway`).
 
 * **implementation**: an implementation of the GraphQL specification, including parser, validation, and execution. Those projects are network agnostic.
   * Examples: `GraphQL.js`, `GraphQL Java`, `Apollo Kotlin`, `Hot Chocolate`

@@ -1,6 +1,6 @@
 {
   "name": "Apollo Server",
-  "type": "server",
+  "types": ["server"],
   "description": "A GraphQL server from Apollo that works with any Node.js HTTP framework",
   "url": "https://github.com/apollographql/apollo-server",
   "features": {

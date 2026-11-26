@@ -58,7 +58,10 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
                 a(href = "project/${it.id}") { +it.name }
               }
               td {
-                a(href = "#${it.type.anchor}") { +it.type.name }
+                it.types.forEachIndexed { index, type ->
+                  if (index > 0) +", "
+                  a(href = "#${type.anchor}") { +type.name }
+                }
               }
               td {
                 +if (it.supported % 1.0 == 0.0) it.supported.toInt().toString() else it.supported.toString()
@@ -120,7 +123,7 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
       projectTypes.forEach { type ->
         h3 { anchored(type.anchor, type.name) }
         p { +type.description }
-        val typeProjects = projects.entries.filter { it.value.type == type.id }.sortedBy { it.value.name }
+        val typeProjects = projects.entries.filter { type.id in it.value.types }.sortedBy { it.value.name }
         if (typeProjects.isNotEmpty()) {
           p {
             b { +"Projects: " }
@@ -185,7 +188,7 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
 private class DisplayProject(
   val id: String,
   val name: String,
-  val type: ProjectType,
+  val types: List<ProjectType>,
   val supported: Double,
   val unsupported: Int,
   val na: Int,
@@ -211,7 +214,7 @@ private fun sortedProjects(features: Map<String, Feature>, projects: Map<String,
     DisplayProject(
       id = project.key,
       name = project.value.name,
-      type = projectType(project.value.type),
+      types = project.value.projectTypes(),
       supported = statuses.sumOf { it.score() },
       unsupported = statuses.count { it is NotSupported || it is Unknown },
       na = statuses.count { it is NotApplicable },
