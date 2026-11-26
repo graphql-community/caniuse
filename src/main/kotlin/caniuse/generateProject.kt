@@ -11,7 +11,8 @@ internal fun generateProject(id: String, project: Project, features: Map<String,
     div("markdown") { markdown(project.description) }
     p {
       b { +"Type: " }
-      +project.type
+      val type = projectType(project.type)
+      a(href = "../#${type.anchor}") { +type.name }
     }
     p {
       b { +"Website: " }

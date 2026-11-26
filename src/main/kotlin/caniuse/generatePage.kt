@@ -1,6 +1,7 @@
 package caniuse
 
-import kotlinx.html.H2
+import kotlinx.html.CommonAttributeGroupFacade
+import kotlinx.html.FlowOrInteractiveOrPhrasingContent
 import kotlinx.html.HTMLTag
 import kotlinx.html.MAIN
 import kotlinx.html.a
@@ -38,7 +39,7 @@ internal fun HTMLTag.markdown(markdown: String) {
 
 private const val anchorSvg = """<svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M7.775 3.275a.75.75 0 0 0 1.06 1.06l1.25-1.25a2 2 0 1 1 2.83 2.83l-2.5 2.5a2 2 0 0 1-2.83 0 .75.75 0 0 0-1.06 1.06 3.5 3.5 0 0 0 4.95 0l2.5-2.5a3.5 3.5 0 0 0-4.95-4.95l-1.25 1.25Zm-4.69 9.64a2 2 0 0 1 0-2.83l2.5-2.5a2 2 0 0 1 2.83 0 .75.75 0 0 0 1.06-1.06 3.5 3.5 0 0 0-4.95 0l-2.5 2.5a3.5 3.5 0 0 0 4.95 4.95l1.25-1.25a.751.751 0 0 0-.018-1.042.751.751 0 0 0-1.042-.018l-1.25 1.25a2 2 0 0 1-2.83 0Z"/></svg>"""
 
-internal fun H2.anchored(slug: String, label: String) {
+internal fun <T> T.anchored(slug: String, label: String) where T : CommonAttributeGroupFacade, T : FlowOrInteractiveOrPhrasingContent {
   id = slug
   classes = setOf("anchor-heading")
   a(href = "#$slug") {
@@ -153,6 +154,22 @@ internal fun generatePage(
                 a(href = "${pathPrefix}feature/$featureId") {
                   classes = setOf("sidebar-link")
                   +feature.name
+                }
+              }
+            }
+          }
+          h4 {
+            a(href = "${pathPrefix}#project-types") {
+              classes = setOf("sidebar-heading-link")
+              +"Project types"
+            }
+          }
+          ul {
+            projectTypes.forEach { type ->
+              li {
+                a(href = "${pathPrefix}#${type.anchor}") {
+                  classes = setOf("sidebar-link")
+                  +type.name
                 }
               }
             }

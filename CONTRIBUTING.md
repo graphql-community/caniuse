@@ -46,7 +46,7 @@ Create a new file `data/projects/<project-id>.json`:
 }
 ```
 
-`type` is typically `client`, `server`, `gateway`, `ide`, or `tool`.
+`type` must be one of the values listed in [Project types](#project-types).
 
 Then add feature support entries as described above.
 
@@ -121,18 +121,14 @@ Because `n/a` features are not "unsupported", they count toward the overall scor
 
 ## Project types
 
-Valid values for `type` are:
+Valid values for `type` are listed below (use the lowercase value in project files, e.g. `ide`). They are defined in [`ProjectTypes.kt`](src/main/kotlin/caniuse/ProjectTypes.kt), and each type has its own anchor on the site: `https://caniuse.graphql.now/#type-<type>` (e.g. `#type-gateway`).
 
 * **implementation**: an implementation of the GraphQL specification, including parser, validation, and execution. Those projects are network agnostic.
   * Examples: `GraphQL.js`, `GraphQL Java`, `Apollo Kotlin`, `Hot Chocolate`
-* **schema builder**: a schema builder builds an executable schema. Schema builders can be implementation-first or SDL first.
-  * Examples: `Grats`, `GraphQL Kotlin`, `Hot Chocolate`
 * **server**: a server deals with the network. 
   * Examples: `GraphQL Yoga`, `Apollo Server`, `Hot Chocolate`
 * **client**: a client makes requests to a server, optionally caches them. Some clients have APIs to customize their network layer.
   * Examples: `Apollo Client`, `urql`, `Relay`
-* **code generator**: a code generator generates code and types from operations and/or servers.
-  * Examples: `GraphQL code generator`, `Apollo iOS`, `DGS`
 * **gateway**: a gateway composes subgraphs into a supergraph, often adding observability, and/or caching.
   * Examples: `TheGuild Hive`, `Wundergraph Cosmo`, `Chillicream Fusion`, `Apollo Router`
 * **IDE**: an IDE allows executing and debugging GraphQL requests. 

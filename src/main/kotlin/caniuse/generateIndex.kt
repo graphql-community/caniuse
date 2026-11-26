@@ -57,7 +57,9 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
               td {
                 a(href = "project/${it.id}") { +it.name }
               }
-              td { +it.type }
+              td {
+                a(href = "#${it.type.anchor}") { +it.type.name }
+              }
               td {
                 +if (it.supported % 1.0 == 0.0) it.supported.toInt().toString() else it.supported.toString()
               }
@@ -105,6 +107,26 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
               }
               td { +it.unsupported.toString() }
               td { +it.na.toString() }
+            }
+          }
+        }
+      }
+    }
+    div {
+      h2 { anchored("project-types", "Project types") }
+      p {
+        +"Each project has a type that describes what part of the GraphQL stack it covers. Not every feature applies to every project type. The boundaries are often a bit blurry. For an example, Apollo Kotlin is both an implementation and a client."
+      }
+      projectTypes.forEach { type ->
+        h3 { anchored(type.anchor, type.name) }
+        p { +type.description }
+        val typeProjects = projects.entries.filter { it.value.type == type.id }.sortedBy { it.value.name }
+        if (typeProjects.isNotEmpty()) {
+          p {
+            b { +"Projects: " }
+            typeProjects.forEachIndexed { index, (projectId, project) ->
+              if (index > 0) +", "
+              a(href = "project/$projectId") { +project.name }
             }
           }
         }
@@ -163,7 +185,7 @@ fun generateIndex(projects: Map<String, Project>, features: Map<String, Feature>
 private class DisplayProject(
   val id: String,
   val name: String,
-  val type: String,
+  val type: ProjectType,
   val supported: Double,
   val unsupported: Int,
   val na: Int,
@@ -189,7 +211,7 @@ private fun sortedProjects(features: Map<String, Feature>, projects: Map<String,
     DisplayProject(
       id = project.key,
       name = project.value.name,
-      type = project.value.type,
+      type = projectType(project.value.type),
       supported = statuses.sumOf { it.score() },
       unsupported = statuses.count { it is NotSupported || it is Unknown },
       na = statuses.count { it is NotApplicable },

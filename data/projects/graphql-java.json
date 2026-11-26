@@ -1,6 +1,6 @@
 {
   "name": "GraphQL Java",
-  "type": "server",
+  "type": "implementation",
   "description": "A Java library for building GraphQL APIs.",
   "url": "https://github.com/graphql-java/graphql-java",
   "features": {
